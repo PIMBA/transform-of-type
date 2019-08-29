@@ -1,0 +1,30 @@
+{
+  "name": "transform-of-type",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "ttsc && ttsc ./test/index.ts && node ./test/index.js",
+    "build": "ttsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "yonghao.wang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "ts-node": "^8.3.0",
+    "ttypescript": "^1.5.7",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "enjoi": "^6.0.0",
+    "joi": "^14.3.1",
+    "json-schema-faker": "^0.5.0-rc17",
+    "typescript-json-schema": "^0.40.0"
+  }
+}
