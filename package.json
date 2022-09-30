@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^15.1.1",
-    "enjoi": "^6.0.0",
+    "enjoi": "^9.0.1",
     "joi": "^14.3.1",
     "json-schema-faker": "^0.5.0-rc17",
     "typescript-json-schema": "^0.40.0"
